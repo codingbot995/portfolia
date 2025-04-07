@@ -443,7 +443,14 @@ section{
         margin: 2rem 0;
     }
     .about img{
-        width: 52vw;
+        width: 50vw;
+    }
+    .about {
+       display: flex;
+       flex-direction: column;   
+    }
+    .project-card{
+        margin-right: 50px;
     }
     .contact form{
         flex-direction: column;
